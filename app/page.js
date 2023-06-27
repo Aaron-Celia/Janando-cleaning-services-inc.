@@ -1,31 +1,29 @@
 "use client";
-import { Button, Col, Container, Row } from "react-bootstrap";
-import CustomCarousel from "./components/CustomCarousel";
-import Image from "next/image";
-import building from "../public/business-building.png";
-import ecoFriendlyImg from "../public/env.png";
-import home5 from "../public/home5.png";
+import CarouselComponent from "./components/CarouselComponent";
 // import Slider from "./components/Slider";
-import Slider2 from "./components/Slider2";
-import { useEffect, useState } from "react";
 
 export default function Home() {
-  const [hasLoaded, setHasLoaded] = useState(false)
-  useEffect(() => {
-    const buttons = document.querySelector('.tns-controls');
-    buttons.style.display = 'none';
-    const box = document.querySelector('.tns-outer');
-    box.firstChild.style.display = 'none';
-    // setHasLoaded(true);
-    // if(hasLoaded){
-    // }
-  }, [])
-
-  return (
-    <div>
-      <Slider2 />
-    </div>
-  )
+	// const [hasLoaded, setHasLoaded] = useState(false);
+	// const [mount, setMount] = useState(false);
+	// const router = useRouter();
+	// useEffect(() => {
+	// 	if (hasLoaded) {
+	// 		setMount(true);
+	// 		const buttons = document.querySelector(".tns-controls");
+	// 		console.log(buttons);
+	// 		console.log("hasLoaded: ", hasLoaded);
+	// 		const box = document.querySelector(".tns-outer");
+	// 		buttons.style.display = "none";
+	// 		box.firstChild.style.display = "none";
+	// 	}
+	// 	setHasLoaded(true);
+	// }, []);
+	// console.log("mount", mount);
+		return (
+			<div>
+				<CarouselComponent />
+			</div>
+		);
 	// return (
 	// 	<Container className="homepage">
 	// 		<div className="heading">

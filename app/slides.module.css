@@ -1,14 +1,3 @@
-.controlContainer {
-    height: 400px;
-    position: absolute;
-    margin-top: 70px;
-    width: 100vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.controlContainer button {
-    background: transparent;
-    border: none;
+.slide {
+    height: 30vw;
 }

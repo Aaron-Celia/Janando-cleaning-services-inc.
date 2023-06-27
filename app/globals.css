@@ -29,9 +29,9 @@ background: linear-gradient(to bottom, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, 
   align-items: center;
 }
 
-.homepage {
+/* .homepage {
 
-}
+} */
 
 .servicesSection {
   display: flex;
