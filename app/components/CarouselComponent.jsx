@@ -15,6 +15,7 @@ export default function CarouselComponent() {
             showIndicators={false}
 			showArrows={false}
 			interval={5000}
+			showStatus={false}
             >
 			<div>
 				<img src="/slider1.png" alt="img Slide 1" className={styles.slide} />
