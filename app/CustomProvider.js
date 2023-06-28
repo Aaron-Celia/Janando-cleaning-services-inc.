@@ -1,5 +1,4 @@
 'use client'
-
 import { SSRProvider } from "react-bootstrap"
 import NavBar from "./components/NavBar"
 

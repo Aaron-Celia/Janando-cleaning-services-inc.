@@ -1,20 +1,16 @@
-import { SSRProvider } from 'react-bootstrap'
-import NavBar from './components/NavBar'
-import './globals.css'
-import { Inter } from 'next/font/google'
-import CustomProvider from './CustomProvider'
-import Image from 'next/image'
-import floralImg from '../public/floral-vector.jpg';
+import { Inter } from "next/font/google";
+import CustomProvider from "./CustomProvider";
+import "./globals.css";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: 'Janando Cleaning Services Inc.',
-  description: 'Cleaning service for the greater Tampa Bay area.',
-}
+	title: "Janando Cleaning Services Inc.",
+	description: "Cleaning service for the greater Tampa Bay area."
+};
 
 export default function RootLayout({ children }) {
-  return (
+	return (
 		<html lang="en">
 			<head>
 				<meta charSet="utf-8" />
