@@ -13,9 +13,14 @@ export default function CarouselComponent() {
 			infiniteLoop={true}
             showThumbs={false}
             showIndicators={false}
+			showArrows={false}
+			interval={5000}
             >
 			<div>
 				<img src="/slider1.png" alt="img Slide 1" className={styles.slide} />
+			</div>
+			<div>
+				<img src="/slider5.png" alt="img Slide 1" className={styles.slide} />
 			</div>
 			<div>
 				<img src="/slider2.png" alt="img Slide 2" className={styles.slide} />
